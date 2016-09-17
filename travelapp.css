@@ -21,7 +21,7 @@ html, body {
   margin: 0;
 }
 
-.tags, .destination {
+.tags, .dest {
   margin: 80px 0;
 }
 
@@ -56,7 +56,7 @@ h2 a {
   height:auto
 }
 
-.tag h2, .tag .card h2, .destination h2, .destination p {
+.tag h2, .tag .card h2, .dest h2, .dest p {
   padding: 0 20px 0;
 }
 
@@ -68,19 +68,19 @@ h2 a {
   padding: 0 20px 20px;
 }
 
-.destination img {
+.dest img {
   width: 100%;
 }
 
-.destination p {
+.dest p {
   color: #0f0f0f;
   font-size: 14px;
   font-weight: 300;
 }
 
 .card a,
-.destination a,
-.destination .btn {
+.dest a,
+.dest .btn {
  background-color: #00217f ;
  color: #fff;
  font-size: 14px;
@@ -94,25 +94,25 @@ h2 a {
  margin: 8px 0 20px;
 }
 
-.destination .btn {
+.dest .btn {
   width: 100px;
 }
 
-.destination a:hover,
-.destination .btn:hover {
+.dest a:hover,
+.dest .btn:hover {
   background-color: #003ec9;
   transition: background-color .5s;
 }
 
-.destination form {
+.dest form {
   margin: 20px;
 }
 
-.destination form label {
+.dest form label {
   width: 100%;
 }
 
-.destination form input {
+.dest form input {
   border: 1px solid #d6d6d6;
   font-family: 'Roboto', sans-serif;
   margin: 10px 0;
@@ -120,7 +120,7 @@ h2 a {
   width: calc(100% - 40px);
 }
 
-.destination form input:focus {
+.dest form input:focus {
   border: 1px solid #003ec9;
   font-size: 14px;
   font-weight: 300;
@@ -827,8 +827,8 @@ h2 a {
   }
 
   .card a,
-  .destination a,
-  .destination .btn {
+  .dest a,
+  .dest .btn {
     padding: 8px 15px;
   }
 }
